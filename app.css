@@ -1,0 +1,63 @@
+.navbar-brand{
+    font-size: 2.5rem;
+}
+body{
+    background-color: #fdfd96;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+#mainNavbar .navbar-brand{
+    color: #e683a9ff;
+    
+    
+}
+#mainNavbar .nav-link{
+    color: #4c7031;
+    
+}
+#mainNavbar .nav-link:hover{
+    color: #e683a9ff
+    
+    
+}
+
+#mainNavbar {
+  
+    font-size: 2rem;
+    font-weight: 200;
+}
+#headingGroup span{
+    color: #e683a9ff;
+
+}
+#headingGroup h1{
+    font-size: 4rem;
+    font-weight:100;
+}
+
+.navbar.scrolled{
+    background:  #dcfffb; 
+}
+@media (max-width: 1200px) {
+    #headingGroup h1{
+        font-size: 2rem;
+        font-weight:100;
+    
+}
+}
+h1{
+    color: #4c7031;
+    font-weight: 100;
+    font: size 3.5rem;
+}
+.donisi h2{
+    color:#4c7031;
+    font-weight: 100;
+    font: size 2.5rem;
+}
+.donisi p{
+    color: #e683a9ff;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
