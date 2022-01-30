@@ -20,7 +20,12 @@ body{
     
     
 }
-
+.img-fluid{
+    border: #dcfffb ;
+    border-style:solid;
+    border-radius: 50%;
+    border-width: 0.5cm;
+}
 #mainNavbar {
   
     font-size: 2rem;
@@ -48,7 +53,9 @@ body{
 h1{
     color: #4c7031;
     font-weight: 100;
-    font: size 3.5rem;
+    font-size:  3.5rem;
+    margin-top: auto;
+    
 }
 .donisi h2{
     color:#4c7031;
@@ -61,3 +68,70 @@ h1{
     font-size: 1.125rem;
 }
 
+section .countdown .time{
+    display: flex;
+    width: 590px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    font-size: 28px;
+    
+}
+section .countdown .time div{
+    position: relative;
+    width: 200px;
+    padding: 10px;
+    margin: 0 5px;
+    border: 8px solid #e683a9ff;
+    border-radius: 20%;
+    background: #dcfffb ;
+    margin-top: 30px;
+    margin-left: 5px;
+    
+}
+section a{
+    align-items: center;
+    color: #e683a9ff;
+   
+}
+.countdown span{
+    margin-top: 30px;
+    font-size: 30px;
+    
+
+}
+section .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background:#e683a9ff;
+    padding: 70px;
+    width: 500px;
+    border: 10px solid #dcfffb ;
+    margin-top: 60px;
+    cursor: pointer;
+  
+}
+.button span{
+    display: inline-block;
+    position: relative;
+    transition: 0.8s;
+    font-size: 40px;
+}
+.button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top:0;
+    right: -30px;
+    transition: 0.8s;
+}
+.button:hover span{
+    padding-right:25px;
+
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
